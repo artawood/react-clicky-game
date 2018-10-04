@@ -9,5 +9,9 @@ The purpose of this app is to create a memory game in with React.
 - Added Bootstrap CSS in public/index.html
 - Added components directory in src/
 
+### 10/04/2018
+- Completed components for HTML and CSS
+
+
 
 
