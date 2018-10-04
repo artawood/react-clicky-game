@@ -2,23 +2,32 @@ import React from "react";
 import "./Navbar.css"
 
 const Navbar = props => (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Clicky Game</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-          You guessed correctly!
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        
+      <div className="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <a className="nav-link" href="#">Start Game</a>
           </li>
-          <li class="nav-item">
-          The scores here
+          <li className="nav-item">
+            <a className="nav-link disabled" href="#">New Game</a>
           </li>
         </ul>
       </div>
     </nav>
+    // <nav class="navbar">
+    //     <ul class="navbar-nav">
+    //         <li class="brand">
+    //         Clicky Game
+    //         </li>
+    //         <li>
+    //         You guessed correctly!
+    //         </li>
+    //         <li>
+    //         Score {props.score} | Top Score {props.topScore}
+    //         </li>
+    //     </ul>
+    // </nav>
 )
 
 export default Navbar;
