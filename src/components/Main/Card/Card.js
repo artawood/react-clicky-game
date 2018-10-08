@@ -3,7 +3,7 @@ import "./Card.css";
 
 const Card = props => (
   <div className="col-4">
-    <div className="card" draggable="true" onClick={() => props.charactersClicked(props.key,props.name,props.clicked)}>
+    <div className="card" draggable="true" onClick={() => props.charactersClicked(props.id, props.name, props.clicked)}>
         <div className="img-container">
         <img alt={props.name} src={props.image} />
         </div>
