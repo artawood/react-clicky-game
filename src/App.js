@@ -22,7 +22,7 @@ class App extends Component {
       this.setState({
         score: this.state.score + 1,
         topScore: this.state.topScore + 1,
-        characters: update(this.state.character, {key: {clicked: {$set: true}}})
+        // characters: update(this.state.character, {key: {clicked: {$set: true}}})
       });
     } else if (clicked) {
       alert(`You clicked ${name} already! Game over!`)
